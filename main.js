@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function(){
             click = !click;
             let draw = document.querySelector("#draw");
             if (click){
-                draw.innerHTML = "lets draw";
+                draw.innerHTML = "Lets draw!";
             }else {
-                draw.innerHTML = "to bad!"
+                draw.innerHTML = "Pause!"
             }
         }
 

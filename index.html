@@ -8,20 +8,20 @@
     ">
     <script src="main.js"></script>
 </head>
-<body>
-    <h1>Etch-a-sketch</h1>
-    <div class="header">
-        <h6>Select the size</h6>
+<body>   
+    <h1 class="row-sm">Etch-a-sketch</h1>
+    <div class="row-sm justify-content-center">
+        <h6 class="row">Select the size</h6>
         <button id="popup" class="btn btn-warning">Select</button>
     </div>
     <p id="message"></p>
     <p id="draw"></p>
+    
     <div class="board"></div>
-    <div class="footer">
-        <button class="btn btn-dark" onclick="setColor('Black')">Black</button>
-        <button class="btn btn-info" onclick="setColor('random')">Random</button>
-        <button class="btn btn-primary" onclick="reset()">Reset</button>
-
+    <div class="row-sm-4">
+        <button class="btn btn-dark row-sm-4" onclick="setColor('Black')">Black</button>
+        <button class="btn btn-info row-sm-4" onclick="setColor('random')">Random</button>
+        <button class="btn btn-primary row-sm-4" onclick="reset()">Reset</button>
     </div>
 </body>
 </html>
